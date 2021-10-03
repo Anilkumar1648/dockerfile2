@@ -1,4 +1,4 @@
-FROM nginx:latest 
+FROM docker2021repos/nginx:latest 
 MAINTAINER anikumarchippada98@gmail.com 
 RUN apt install -y curl
 COPY index.html /usr/share/nginx/html/
